@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/restaurant.png">
+    <link rel="stylesheet" href="Icon/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Dine House</title>
+</head>
+
+<body>
+    <!-- <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+      </div> -->
+    <div class="all-up">
+        <section id="menu">
+            <div class="container menu">
+                <nav class="bg-dark">
+                    <div class="logo">
+                        <a href="#"><img class="img-fluid" src="Image/logo-removebg-preview.png" alt=""></a>
+                    </div>
+                    <div class="nav-item">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a href="#menu"><button class="nav-link active aaaa" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Home</button></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="#menue"><button class="nav-link vvvv" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Menu</button></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="#story"><button class="nav-link bbbb" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">About Us</button></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="#sub">
+                                    <button class="nav-link cccc" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">Contact</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-btn">
+                        <button type="submit" class="rounded">
+                            Sign Up
+                        </button>
+                    </div>
+                </nav>
+                <div class="row menu-w">
+                    <div class="menu-text col-5 py-5">
+                        <h1>Eat, drink and <br>Enjoy.</h1>
+                        <h4>Your Restaurent is Waiting For You</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laudantium non velit quo
+                            cupiditate?</p>
+                        <Button>Explore</Button>
+                        <Button>See More</Button>
+                    </div>
+                    <div class="menu-img col-5">
+                        <img class="flwr img-fluid" src="Image/flower.png" alt="">
+                        <img class="lmp img-fluid" src="Image/lamp.png" alt="">
+                        <img class="ppl img-fluid" src="Image/ppl.png" alt="">
+                        <img class="wnd img-fluid" src="Image/wnd.png" alt="">
+                        <img class="wnd2 img-fluid" src="Image/wnd.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <a class="book" href="#">Book a Table &nbsp;<i class="fa-solid fa-right-long"></i></a> <br>
+                <div class="table">
+                    <div class="col-9 tabl">
+                        <div class="date">
+                            <label class="dt" for="date">Date <i class="fa-solid fa-chevron-down"></i></label><br>
+                            <input type="date" id="date" value="2023-07-22" />
+                        </div>
+                        <div class="date">
+                            <label class="dt" for="date">Time <i class="fa-solid fa-chevron-down"></i></label><br>
+                            <input type="time" id="date" value="08:05" />
+                        </div>
+                        <div class="date">
+                            <label class="dt" for="date">Mail <i class="fa-solid fa-chevron-down"></i></label><br>
+                            <input type="email" id="mail" placeholder="example@example.com" />
+                        </div>
+                    </div>
+                    <div class="check">
+                        <button type="submit">Check Availability </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="menue">
+            <div class="container">
+                <div class="sec-head text-center">
+                    <h3>Delicious</h3>
+                    <h2>Food Categories</h2>
+                    <div class="menue-item">
+
+                        <div class="spcl">
+                            <div class="img">
+                                <img src="Image/meat.png" alt="">
+                            </div>
+                            <h2>Meat</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ut, reprehenderit
+                                ducimus magnam mollitia</p>
+                            <button class="click-meat">Close</button>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <img src="Image/meat.png" alt="">
+                            </div>
+                            <h2>Meat</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ut, reprehenderit
+                                ducimus magnam mollitia</p>
+                            <button>Read More</button>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <img src="Image/fish.png" alt="">
+                            </div>
+                            <h2>Fish</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ut, reprehenderit
+                                ducimus magnam mollitia</p>
+                            <button>Read More</button>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <img src="Image/drink.png" alt="">
+                            </div>
+                            <h2>Drinks</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ut, reprehenderit
+                                ducimus magnam mollitia</p>
+                            <button class="click-drink">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="protocol">
+            <div class="container overflow-hidden">
+                <div class="sec-head text-center">
+                    <h3>Covid-19 Protocol</h3>
+                    <h2>We Care About You</h2>
+                    <button>Read More</button>
+                </div>
+                <div class="img text-center">
+                    <img class="ppl" src="Image/1.png" alt="">
+                    <img class="tbl1" src="Image/tbl.png" alt="">
+                    <img class="tbl2" src="Image/tbl.png" alt="">
+                    <img class="tbl3" src="Image/tbl.png" alt="">
+                    <img class="tbl4" src="Image/tbl.png" alt="">
+                </div>
+        </section>
+        <section id="story">
+            <div class="container">
+                <div class="row stry">
+                    <div class="sec-head offset-1 col-4">
+                        <h3>Story</h3>
+                        <h2>Our Restaurent</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae dolorem nesciunt
+                            natus quibusdam necessitatibus ea asperiores? Asperiores </p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="img offset-1 col-6">
+                        <img class="img-fluid" src="Image/story.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="img col-6">
+                        <img class="img-fluid" src="Image/ing.png" alt="">
+                    </div>
+                    <div class="sec-head two offset-1 col-5">
+                        <h3>Ingredients</h3>
+                        <h2>Fresh and Healthy Ingredients</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae dolorem
+                            nesciunt natus quibusdam necessitatibus ea asperiores? Asperiores </p>
+                        <button class="ingredients">Read More</button>
+                    </div>
+                </div>
+        </section>
+        <section id="chef">
+            <div class="container">
+                <div class="row chef">
+                    <div class="col-4">
+                        <div class="sec-head">
+                            <h3>Words From</h3>
+                            <h2>The Chef</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repudiandae dolorem
+                                nesciunt natus quibusdam necessitatibus ea asperiores? Asperiores </p>
+                            <button class="ingredients">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <img class="img-fluid" src="Image/chef.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="review">
+            <div class="container">
+                <div class="sec-head text-center">
+                    <h3>What our</h3>
+                    <h2>Customers Say</h2>
+                </div>
+                <div class="row one">                    
+                    <div class="c1 col">
+                        <div class="img">
+                            <img src="Image/c1.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4>John Smith <span class="dt">24th Aug, 2023</span></h4>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi velit."</p>
+                            <div class="icon">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c1 offset-1 col">
+                        <div class="img">
+                            <img src="Image/c2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4>Sara Jonhson <span class="dt">08th Aug, 2023</span></h4>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi velit."</p>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="c3">
+                        <div class="c1 col-6">
+                            <div class="img">
+                                <img src="Image/c3.png" alt="">
+                            </div>
+                            <div class="txt">
+                                <h4>Jonh Doe <span class="dt"> 26th Aug, 2023</span></h4>
+                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi velit."</p>
+                                <div class="icon">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sub">
+            <div class="container text-center">
+                <div class="sec-head text-center">
+                    <h3>Subscribe</h3>
+                    <h2>TO Our Newsletter<ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                    </ul></h2>
+                </div>
+                <input type="text" placeholder="Name"> <br>
+                <input type="text" placeholder="Email"> <br>
+                <textarea name="" id="" cols="30" rows="2" placeholder="Message"></textarea><br>
+                <button>Send Message</button>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="code.jquery.com_jquery-1.12.4.min.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
